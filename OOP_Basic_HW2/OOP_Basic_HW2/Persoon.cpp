@@ -6,9 +6,13 @@ Persoon::Persoon()
 }
 
 int Persoon::getAge() {
-	return 0;
+	return leeftijd;
 }
 
 std::string Persoon::getName() {
-	return "";
+	return naam;
+}
+
+int Persoon::getID() {
+	return 0;
 }

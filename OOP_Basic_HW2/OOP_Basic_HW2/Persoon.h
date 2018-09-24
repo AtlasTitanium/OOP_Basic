@@ -3,12 +3,13 @@
 
 class Persoon
 {
-private:
+public:
 	int leeftijd;
 	std::string naam;
-public:
+
 	Persoon();
 	int getAge();
 	std::string getName();
+	virtual int getID();
 };
 

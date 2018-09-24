@@ -1,0 +1,7 @@
+﻿  OOP_Basic_HW2.cpp
+c:\users\atlas\desktop\hku school\year2\githubfiles\oop_basic\oop_basic_hw2\oop_basic_hw2\oop_basic_hw2.cpp(15): error C3867: 'Student::getID': non-standard syntax; use '&' to create a pointer to member
+c:\users\atlas\desktop\hku school\year2\githubfiles\oop_basic\oop_basic_hw2\oop_basic_hw2\oop_basic_hw2.cpp(15): error C3867: 'Persoon::getName': non-standard syntax; use '&' to create a pointer to member
+c:\users\atlas\desktop\hku school\year2\githubfiles\oop_basic\oop_basic_hw2\oop_basic_hw2\oop_basic_hw2.cpp(15): error C3867: 'Persoon::getAge': non-standard syntax; use '&' to create a pointer to member
+c:\users\atlas\desktop\hku school\year2\githubfiles\oop_basic\oop_basic_hw2\oop_basic_hw2\oop_basic_hw2.cpp(16): error C3867: 'Docent::getID': non-standard syntax; use '&' to create a pointer to member
+c:\users\atlas\desktop\hku school\year2\githubfiles\oop_basic\oop_basic_hw2\oop_basic_hw2\oop_basic_hw2.cpp(16): error C3867: 'Persoon::getName': non-standard syntax; use '&' to create a pointer to member
+c:\users\atlas\desktop\hku school\year2\githubfiles\oop_basic\oop_basic_hw2\oop_basic_hw2\oop_basic_hw2.cpp(16): error C3867: 'Persoon::getAge': non-standard syntax; use '&' to create a pointer to member
