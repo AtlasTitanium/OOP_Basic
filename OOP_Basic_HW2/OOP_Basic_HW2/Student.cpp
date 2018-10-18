@@ -1,10 +1,8 @@
 #include "pch.h"
 #include "Student.h"
 
-Student::Student(int ID, std::string name, int age)
+Student::Student(int ID, std::string name, int age) : Persoon(age,name)
 {
-	naam = name;
-	leeftijd = age;
 	studentID = ID;
 }
 

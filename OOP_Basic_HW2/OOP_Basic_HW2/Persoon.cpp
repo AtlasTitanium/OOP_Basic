@@ -1,8 +1,10 @@
 #include "pch.h"
 #include "Persoon.h"
 
-Persoon::Persoon()
+Persoon::Persoon(int age, std::string name)
 {
+	naam = name;
+	leeftijd = age;
 }
 
 int Persoon::getAge() {

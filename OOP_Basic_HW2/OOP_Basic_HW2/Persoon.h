@@ -7,7 +7,7 @@ public:
 	int leeftijd;
 	std::string naam;
 
-	Persoon();
+	Persoon(int age, std::string name);
 	int getAge();
 	std::string getName();
 	virtual int getID();
