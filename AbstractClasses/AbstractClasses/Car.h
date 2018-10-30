@@ -1,13 +1,12 @@
 #pragma once
 
-#include "vervoermiddel.h"
-
-class Car : public vervoermiddel
+class Car
 {
+private:
+	float pricePerKilometer = 1.0;
+	float maxAmountPassengers = 5;
+	float entryPrice = 0;
 public:
-	Car();
-	float setPricePerKilometer(int ppk) override;
-	float setMaxAmountPassengers(int amount) override;
-	float calculateIncome(int price, int passengers) override;
+	virtual float calculateIncome(float kilometersDriven) = 0;
 };
 
